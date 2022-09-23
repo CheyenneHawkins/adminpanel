@@ -80,7 +80,8 @@ img {
     /* grid-template-rows: 30px; */
     grid-template-areas: "menuicon menuword";
     margin: 0px;
-    transition: .2s;
+    transition: .3s;
+    cursor: pointer;
 }
 
 
@@ -90,7 +91,9 @@ img {
 }
 
 .menu:hover {
-    transform: translateX(13px);
+    transform: translateX(5px);
+    font-size: 1.05em;
+    /* font-weight: bolder; */
     /* transform: scale(1.2); */
     
 
@@ -343,6 +346,7 @@ img {
     grid-template-rows: 35px 1fr 40px;
     transition: .2s;
     /* align-items: stretch; */
+    cursor: pointer;
 }
 
 .cards:hover {
@@ -504,6 +508,7 @@ img {
     padding-bottom: 0px;
     /* border: 0px; */
     transition: .2s;
+    cursor: pointer;
 
 }
 
